@@ -12,6 +12,7 @@ setup(
     name=NAME,
     version=VERSION,
     description="Geonames settings EEA country groups/regions vocabularies",
+    long_description_content_type="text/x-rst",
     long_description=(
         open("README.rst").read() + "\n" + open(
             os.path.join("docs", "HISTORY.txt")).read()
