@@ -4,5 +4,5 @@ Changelog
 1.0-dev0 - (unreleased)
 -----------------------
 
-* Initial release.
-  [eea]
+* Initial release: Configure Google and Geonames via controlpanel and @geolocation RestAPI endpoint
+  [@avoinea refs #122622]
