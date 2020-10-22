@@ -16,9 +16,8 @@ The eea.geolocation is a Plone add-on
 Main features
 =============
 
-1. Easy to install/uninstall via Site Setup > Add-ons
-2.
-3.
+1. Configure Google API and Geonames API via Site Setup > Geolocation
+2. RestAPI endpoint @geolocation to get these settings.
 
 Install
 =======
