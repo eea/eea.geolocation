@@ -84,7 +84,12 @@ def uninstall(context):
         utility_name = "collective.taxonomy." + normalized_name
         taxonomy = queryUtility(ITaxonomy, name=utility_name)
 
-        sm = site.getSiteManager()
+        if IS_PLONE_4:
+            from zope.component import getSiteManager
+            sm = getSiteManager()
+        else:
+            sm = site.getSiteManager()
+
         sm.unregisterUtility(taxonomy, ITaxonomy, name=utility_name)
         sm.unregisterUtility(taxonomy, IVocabularyFactory, name=utility_name)
         sm.unregisterUtility(taxonomy, ITranslationDomain, name=utility_name)
