@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 imsvdex_v1p0.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd" orderSignificant="false" profileType="flatTokenTerms" language="en">
+
+  <vocabName>
+    <langstring language="en">EEA Custom Country Names Mappings</langstring>
+  </vocabName>
+
+  <vocabIdentifier>eea.geolocation.countries_mapping.taxonomy</vocabIdentifier>
+
+   <term>
+     <termIdentifier>4b4750b4b726496cbf5d587c7c715b6a</termIdentifier>
+     <caption>
+       <langstring language="en">Czech Republic</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>56b2d3536e384a1795ae5faf3752db07</termIdentifier>
+     <caption>
+       <langstring language="en">Former Yugoslav Republic of Macedonia, the</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>62b1773c6c274ac0a6877e5e3a5995bc</termIdentifier>
+     <caption>
+       <langstring language="en">Former Yugoslav Republic of Macedonia, the</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>81a5df9fbe4f424f93703afcdd4692c3</termIdentifier>
+     <caption>
+       <langstring language="en">Former Yugoslav Republic of Macedonia, the</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>312372dd157049bf98afa6f4c4c8eb2f</termIdentifier>
+     <caption>
+       <langstring language="en">Kosovo (UNSCR 1244/99)</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>1d161f90fe96457081d935a37be671d6</termIdentifier>
+     <caption>
+       <langstring language="en">Kosovo (UNSCR 1244/99)</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>ca33e6599fc142ff91c74463fb4254f6</termIdentifier>
+     <caption>
+       <langstring language="en">Former Yugoslav Republic of Macedonia, the</langstring>
+     </caption>
+   </term>
+
+</vdex>
