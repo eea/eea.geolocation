@@ -2,10 +2,14 @@
 """
 import os
 from Products.CMFPlone.interfaces import INonInstallable
+from zope.component import getUtility, queryUtility
 from zope.interface import implementer
+from zope.i18n.interfaces import ITranslationDomain
+from zope.schema.interfaces import IVocabularyFactory
+from plone.i18n.normalizer.interfaces import IIDNormalizer
+from collective.taxonomy.exportimport import TaxonomyImportExportAdapter
 from collective.taxonomy.factory import registerTaxonomy
-from collective.taxonomy.exportimport import TaxonomyImportExportAdapter, parseConfigFile
-
+from collective.taxonomy.interfaces import ITaxonomy
 
 try:
     # Plone 4
@@ -48,21 +52,39 @@ def post_install(context):
 
     for name, title in TAXONOMIES.items():
         taxonomy = registerTaxonomy(site, name, title, language, 'Created at install')
-
         path = os.path.dirname(os.path.realpath(__file__))
         path += directory + name + '.xml'
 
-        # import pdb; pdb.set_trace()
         with open(path) as file:
             data = file.read().encode()
             import_adapter = TaxonomyImportExportAdapter(site)
             import_adapter.importDocument(taxonomy, data)
-
+            # update data in controlpanel
+            # from collective.taxonomy.controlpanel import TaxonomyEditFormAdapter
+            # normalizer = getUtility(IIDNormalizer)
+            # normalized_name = normalizer.normalize(name).replace("-", "")
+            # utility_name = "collective.taxonomy." + normalized_name
+            #
+            # site.REQUEST.form.update({'form.widgets.taxonomy': utility_name})
+            # tax_edit = TaxonomyEditFormAdapter(site)
+            # try:
+            #     setattr(tax_edit, 'field_title', 'test')
+            # except:
+            #     import pdb; pdb.set_trace()
 
 
 def uninstall(context):
     """ Uninstall script
     """
-    # Do something at the end of the uninstallation of this package.
+    site = context.aq_parent
+    normalizer = getUtility(IIDNormalizer)
 
-# 1.remove added taxonomies
+    for name, title in TAXONOMIES.items():
+        normalized_name = normalizer.normalize(name).replace("-", "")
+        utility_name = "collective.taxonomy." + normalized_name
+        taxonomy = queryUtility(ITaxonomy, name=utility_name)
+
+        sm = site.getSiteManager()
+        sm.unregisterUtility(taxonomy, ITaxonomy, name=utility_name)
+        sm.unregisterUtility(taxonomy, IVocabularyFactory, name=utility_name)
+        sm.unregisterUtility(taxonomy, ITranslationDomain, name=utility_name)
