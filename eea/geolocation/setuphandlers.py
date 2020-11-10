@@ -16,6 +16,7 @@ from collective.taxonomy.interfaces import ITaxonomy
 
 try:
     # Plone 4
+    # pyflakes
     from Products.CMFPlone.interfaces import IFactoryTool
     IS_PLONE_4 = True
 except ImportError:
