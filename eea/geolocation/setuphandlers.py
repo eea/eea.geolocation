@@ -22,7 +22,7 @@ except ImportError:
 TAXONOMIES = {
     'eea.geolocation.biotags.taxonomy': 'Biogeographical Regions',
     'eea.geolocation.geotags.taxonomy': 'EEA Geolocation Geotags',
-    'eea.geolocation.countries_mapping.taxonomy': 'EEA Custom Country Names Mappings',
+    'eea.geolocation.countries_mapping.taxonomy': 'EEA Country Names Mappings',
 }
 
 
@@ -51,7 +51,8 @@ def post_install(context):
         directory = '/profiles/plone5imports/'
 
     for name, title in TAXONOMIES.items():
-        taxonomy = registerTaxonomy(site, name, title, language, 'Created at install')
+        taxonomy = registerTaxonomy(site, name, title, language,
+                                    'Created at install')
         path = os.path.dirname(os.path.realpath(__file__))
         path += directory + name + '.xml'
 
@@ -59,18 +60,6 @@ def post_install(context):
             data = file.read().encode()
             import_adapter = TaxonomyImportExportAdapter(site)
             import_adapter.importDocument(taxonomy, data)
-            # update data in controlpanel
-            # from collective.taxonomy.controlpanel import TaxonomyEditFormAdapter
-            # normalizer = getUtility(IIDNormalizer)
-            # normalized_name = normalizer.normalize(name).replace("-", "")
-            # utility_name = "collective.taxonomy." + normalized_name
-            #
-            # site.REQUEST.form.update({'form.widgets.taxonomy': utility_name})
-            # tax_edit = TaxonomyEditFormAdapter(site)
-            # try:
-            #     setattr(tax_edit, 'field_title', 'test')
-            # except:
-            #     import pdb; pdb.set_trace()
 
 
 def uninstall(context):

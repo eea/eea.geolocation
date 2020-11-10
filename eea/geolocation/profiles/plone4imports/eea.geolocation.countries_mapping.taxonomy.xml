@@ -2,7 +2,7 @@
 <vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 imsvdex_v1p0.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd" orderSignificant="false" profileType="flatTokenTerms" language="en">
 
   <vocabName>
-    <langstring language="en">EEA Custom Country Names Mappings</langstring>
+    <langstring language="en">EEA Country Names Mappings</langstring>
   </vocabName>
 
   <vocabIdentifier>eea.geolocation.countries_mapping.taxonomy</vocabIdentifier>
