@@ -1,7 +1,10 @@
 """ Custom setup
 """
+# pylint: disable = W0612
+# pylint: disable = W0611
+# pylint: disable = C0412
 import os
-from Products.CMFPlone.interfaces import INonInstallable #pylint: disable
+from Products.CMFPlone.interfaces import INonInstallable
 from zope.component import getUtility, queryUtility
 from zope.interface import implementer
 from zope.i18n.interfaces import ITranslationDomain
@@ -13,7 +16,7 @@ from collective.taxonomy.interfaces import ITaxonomy
 
 try:
     # Plone 4
-    from Products.CMFPlone.interfaces import IFactoryTool #pylint: disable
+    from Products.CMFPlone.interfaces import IFactoryTool
     IS_PLONE_4 = True
 except ImportError:
     IS_PLONE_4 = False
@@ -68,7 +71,7 @@ def uninstall(context):
     site = context.aq_parent
     normalizer = getUtility(IIDNormalizer)
 
-    for name, title in TAXONOMIES.items(): # pylint: disable=unused-title
+    for name, title in TAXONOMIES.items():
         normalized_name = normalizer.normalize(name).replace("-", "")
         utility_name = "collective.taxonomy." + normalized_name
         taxonomy = queryUtility(ITaxonomy, name=utility_name)
