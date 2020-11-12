@@ -8,45 +8,45 @@
   <vocabIdentifier>eea.geolocation.countries_mapping.taxonomy</vocabIdentifier>
 
    <term>
-     <termIdentifier>4b4750b4b726496cbf5d587c7c715b6a||Czechia</termIdentifier>
+     <termIdentifier>51ea0470-2506-11eb-adc1-0242ac120002||Czechia</termIdentifier>
      <caption>
-       <langstring language="en-us">Czech Republic</langstring>
+       <langstring language="en-us">Czechia</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>56b2d3536e384a1795ae5faf3752db07||Macedonia (ARYM)</termIdentifier>
+     <termIdentifier>51ea052e-2506-11eb-adc1-0242ac120002||Macedonia (ARYM)</termIdentifier>
      <caption>
-       <langstring language="en-us">Former Yugoslav Republic of Macedonia, the</langstring>
+       <langstring language="en-us">North Macedonia</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>62b1773c6c274ac0a6877e5e3a5995bc||Macedonia (FYR)</termIdentifier>
+     <termIdentifier>51ea05e2-2506-11eb-adc1-0242ac120002||Macedonia (FYR)</termIdentifier>
      <caption>
-       <langstring language="en-us">Former Yugoslav Republic of Macedonia, the</langstring>
+       <langstring language="en-us">North Macedonia</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>81a5df9fbe4f424f93703afcdd4692c3||Macedonia (FYROM)</termIdentifier>
+     <termIdentifier>51ea06a0-2506-11eb-adc1-0242ac120002||Macedonia (FYROM)</termIdentifier>
      <caption>
-       <langstring language="en-us">Former Yugoslav Republic of Macedonia, the</langstring>
+       <langstring language="en-us">North Macedonia</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>312372dd157049bf98afa6f4c4c8eb2f||Kosova (Kosovo)</termIdentifier>
+     <termIdentifier>51ea0754-2506-11eb-adc1-0242ac120002||Kosova (Kosovo)</termIdentifier>
      <caption>
        <langstring language="en-us">Kosovo (UNSCR 1244/99)</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>1d161f90fe96457081d935a37be671d6||Kosovo</termIdentifier>
+     <termIdentifier>51ea0812-2506-11eb-adc1-0242ac120002||Kosovo</termIdentifier>
      <caption>
        <langstring language="en-us">Kosovo (UNSCR 1244/99)</langstring>
      </caption>
    </term>
    <term>
-     <termIdentifier>ca33e6599fc142ff91c74463fb4254f6||Macedonia</termIdentifier>
+     <termIdentifier>51ea0a42-2506-11eb-adc1-0242ac120002||Macedonia</termIdentifier>
      <caption>
-       <langstring language="en-us">Former Yugoslav Republic of Macedonia, the</langstring>
+       <langstring language="en-us">North Macedonia</langstring>
      </caption>
    </term>
 
