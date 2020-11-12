@@ -207,7 +207,7 @@
        <term>
          <termIdentifier>0c8f3983efbc91e07d22710fbb563772||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -375,7 +375,7 @@
        <term>
          <termIdentifier>64d93bdd88dc84d12d5ad68b61989fe2||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -531,7 +531,7 @@
        <term>
          <termIdentifier>7fbb7d62b06b8f000d3bd751b48b65cf||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -693,7 +693,7 @@
        <term>
          <termIdentifier>23515d0aed96b1631b55034488a80e86||geo-718075</termIdentifier>
          <caption>
-           <langstring language="en">The former Yugoslav Republic of Macedonia</langstring>
+           <langstring language="en">North Macedonia</langstring>
          </caption>
        </term>
        <term>
@@ -855,7 +855,7 @@
        <term>
          <termIdentifier>3b3e5cea-4e7d-49d3-b28a-7962e6ed4ba3||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -1053,7 +1053,7 @@
        <term>
          <termIdentifier>e4023bb185554bec80f71813ca543653||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -1227,7 +1227,7 @@
        <term>
          <termIdentifier>6633de6890444489bbbd188819c7034c||geo-3077311</termIdentifier>
          <caption>
-           <langstring language="en">Czech Republic</langstring>
+           <langstring language="en">Czechia</langstring>
          </caption>
        </term>
        <term>
@@ -1357,5 +1357,845 @@
          </caption>
        </term>
    </term>
+   <term>
+     <termIdentifier>777ce70e-24f0-11eb-adc1-0242ac120002||eea38_2020</termIdentifier>
+     <caption>
+       <langstring language="en">EEA38 2020</langstring>
+     </caption>
+       <term>
+         <termIdentifier>777ce92a-24f0-11eb-adc1-0242ac120002||geo-146669</termIdentifier>
+         <caption>
+           <langstring language="en">Cyprus</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cea24-24f0-11eb-adc1-0242ac120002||geo-2623032</termIdentifier>
+         <caption>
+           <langstring language="en">Denmark</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777ceaf6-24f0-11eb-adc1-0242ac120002||geo-3144096</termIdentifier>
+         <caption>
+           <langstring language="en">Norway</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777ced30-24f0-11eb-adc1-0242ac120002||geo-298795</termIdentifier>
+         <caption>
+           <langstring language="en">Turkey</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cedf8-24f0-11eb-adc1-0242ac120002||geo-2960313</termIdentifier>
+         <caption>
+           <langstring language="en">Luxembourg</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777ceeb6-24f0-11eb-adc1-0242ac120002||geo-3042058</termIdentifier>
+         <caption>
+           <langstring language="en">Liechtenstein</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cef74-24f0-11eb-adc1-0242ac120002||geo-3175395</termIdentifier>
+         <caption>
+           <langstring language="en">Italy</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf032-24f0-11eb-adc1-0242ac120002||geo-2661886</termIdentifier>
+         <caption>
+           <langstring language="en">Sweden</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf0f0-24f0-11eb-adc1-0242ac120002||geo-2562770</termIdentifier>
+         <caption>
+           <langstring language="en">Malta</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf334-24f0-11eb-adc1-0242ac120002||geo-3194884</termIdentifier>
+         <caption>
+           <langstring language="en">Montenegro</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf406-24f0-11eb-adc1-0242ac120002||geo-3190538</termIdentifier>
+         <caption>
+           <langstring language="en">Slovenia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf4c4-24f0-11eb-adc1-0242ac120002||geo-831053</termIdentifier>
+         <caption>
+           <langstring language="en">Kosovo</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf582-24f0-11eb-adc1-0242ac120002||geo-390903</termIdentifier>
+         <caption>
+           <langstring language="en">Greece</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf640-24f0-11eb-adc1-0242ac120002||geo-3202326</termIdentifier>
+         <caption>
+           <langstring language="en">Croatia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf708-24f0-11eb-adc1-0242ac120002||geo-2750405</termIdentifier>
+         <caption>
+           <langstring language="en">Netherlands</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cf7bc-24f0-11eb-adc1-0242ac120002||geo-6290252</termIdentifier>
+         <caption>
+           <langstring language="en">Serbia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfa46-24f0-11eb-adc1-0242ac120002||geo-458258</termIdentifier>
+         <caption>
+           <langstring language="en">Latvia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfb22-24f0-11eb-adc1-0242ac120002||geo-3277605</termIdentifier>
+         <caption>
+           <langstring language="en">Bosnia and Herzegovina</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfbe0-24f0-11eb-adc1-0242ac120002||geo-453733</termIdentifier>
+         <caption>
+           <langstring language="en">Estonia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfca8-24f0-11eb-adc1-0242ac120002||geo-798549</termIdentifier>
+         <caption>
+           <langstring language="en">Romania</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfd66-24f0-11eb-adc1-0242ac120002||geo-798544</termIdentifier>
+         <caption>
+           <langstring language="en">Poland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfe24-24f0-11eb-adc1-0242ac120002||geo-719819</termIdentifier>
+         <caption>
+           <langstring language="en">Hungary</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cfed8-24f0-11eb-adc1-0242ac120002||geo-783754</termIdentifier>
+         <caption>
+           <langstring language="en">Albania</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777cff96-24f0-11eb-adc1-0242ac120002||geo-2782113</termIdentifier>
+         <caption>
+           <langstring language="en">Austria</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0176-24f0-11eb-adc1-0242ac120002||geo-3017382</termIdentifier>
+         <caption>
+           <langstring language="en">France</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0234-24f0-11eb-adc1-0242ac120002||geo-2963597</termIdentifier>
+         <caption>
+           <langstring language="en">Ireland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d02e8-24f0-11eb-adc1-0242ac120002||geo-660013</termIdentifier>
+         <caption>
+           <langstring language="en">Finland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d03a6-24f0-11eb-adc1-0242ac120002||geo-732800</termIdentifier>
+         <caption>
+           <langstring language="en">Bulgaria</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d046e-24f0-11eb-adc1-0242ac120002||geo-2802361</termIdentifier>
+         <caption>
+           <langstring language="en">Belgium</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d069e-24f0-11eb-adc1-0242ac120002||geo-2921044</termIdentifier>
+         <caption>
+           <langstring language="en">Germany</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d075c-24f0-11eb-adc1-0242ac120002||geo-3057568</termIdentifier>
+         <caption>
+           <langstring language="en">Slovakia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d081a-24f0-11eb-adc1-0242ac120002||geo-2510769</termIdentifier>
+         <caption>
+           <langstring language="en">Spain</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d08d8-24f0-11eb-adc1-0242ac120002||geo-597427</termIdentifier>
+         <caption>
+           <langstring language="en">Lithuania</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0996-24f0-11eb-adc1-0242ac120002||geo-718075</termIdentifier>
+         <caption>
+           <langstring language="en">North Macedonia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0a54-24f0-11eb-adc1-0242ac120002||geo-2264397</termIdentifier>
+         <caption>
+           <langstring language="en">Portugal</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0c7a-24f0-11eb-adc1-0242ac120002||geo-3077311</termIdentifier>
+         <caption>
+           <langstring language="en">Czechia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0d4c-24f0-11eb-adc1-0242ac120002||geo-2629691</termIdentifier>
+         <caption>
+           <langstring language="en">Iceland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>777d0e0a-24f0-11eb-adc1-0242ac120002||geo-2658434</termIdentifier>
+         <caption>
+           <langstring language="en">Switzerland</langstring>
+         </caption>
+       </term>
+   </term>
 
+   <term>
+     <termIdentifier>51e939a0-2506-11eb-adc1-0242ac120002||eea39</termIdentifier>
+     <caption>
+       <langstring language="en">EEA39</langstring>
+     </caption>
+     <term>
+       <termIdentifier>51e93c02-2506-11eb-adc1-0242ac120002||geo-146669</termIdentifier>
+       <caption>
+         <langstring language="en">Cyprus</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e93d06-2506-11eb-adc1-0242ac120002||geo-2623032</termIdentifier>
+       <caption>
+         <langstring language="en">Denmark</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e93e28-2506-11eb-adc1-0242ac120002||geo-3144096</termIdentifier>
+       <caption>
+         <langstring language="en">Norway</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e93f5e-2506-11eb-adc1-0242ac120002||geo-298795</termIdentifier>
+       <caption>
+         <langstring language="en">Turkey</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9409e-2506-11eb-adc1-0242ac120002||geo-2960313</termIdentifier>
+       <caption>
+         <langstring language="en">Luxembourg</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94184-2506-11eb-adc1-0242ac120002||geo-3042058</termIdentifier>
+       <caption>
+         <langstring language="en">Liechtenstein</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e942c4-2506-11eb-adc1-0242ac120002||geo-3175395</termIdentifier>
+       <caption>
+         <langstring language="en">Italy</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e943c8-2506-11eb-adc1-0242ac120002||geo-2661886</termIdentifier>
+       <caption>
+         <langstring language="en">Sweden</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e944cc-2506-11eb-adc1-0242ac120002||geo-2562770</termIdentifier>
+       <caption>
+         <langstring language="en">Malta</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94620-2506-11eb-adc1-0242ac120002||geo-3194884</termIdentifier>
+       <caption>
+         <langstring language="en">Montenegro</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94706-2506-11eb-adc1-0242ac120002||geo-3190538</termIdentifier>
+       <caption>
+         <langstring language="en">Slovenia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e947ec-2506-11eb-adc1-0242ac120002||geo-831053</termIdentifier>
+       <caption>
+         <langstring language="en">Kosovo</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e948c8-2506-11eb-adc1-0242ac120002||geo-390903</termIdentifier>
+       <caption>
+         <langstring language="en">Greece</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e949ae-2506-11eb-adc1-0242ac120002||geo-3202326</termIdentifier>
+       <caption>
+         <langstring language="en">Croatia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94aa8-2506-11eb-adc1-0242ac120002||geo-2750405</termIdentifier>
+       <caption>
+         <langstring language="en">Netherlands</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94b7a-2506-11eb-adc1-0242ac120002||geo-6290252</termIdentifier>
+       <caption>
+         <langstring language="en">Serbia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94c60-2506-11eb-adc1-0242ac120002||geo-458258</termIdentifier>
+       <caption>
+         <langstring language="en">Latvia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94d5a-2506-11eb-adc1-0242ac120002||geo-3277605</termIdentifier>
+       <caption>
+         <langstring language="en">Bosnia and Herzegovina</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94e40-2506-11eb-adc1-0242ac120002||geo-453733</termIdentifier>
+       <caption>
+         <langstring language="en">Estonia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e94f1c-2506-11eb-adc1-0242ac120002||geo-798549</termIdentifier>
+       <caption>
+         <langstring language="en">Romania</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95160-2506-11eb-adc1-0242ac120002||geo-798544</termIdentifier>
+       <caption>
+         <langstring language="en">Poland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95322-2506-11eb-adc1-0242ac120002||geo-719819</termIdentifier>
+       <caption>
+         <langstring language="en">Hungary</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9546c-2506-11eb-adc1-0242ac120002||geo-2635167</termIdentifier>
+       <caption>
+         <langstring language="en">United Kingdom</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95598-2506-11eb-adc1-0242ac120002||geo-783754</termIdentifier>
+       <caption>
+         <langstring language="en">Albania</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9570a-2506-11eb-adc1-0242ac120002||geo-2782113</termIdentifier>
+       <caption>
+         <langstring language="en">Austria</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9580e-2506-11eb-adc1-0242ac120002||geo-3017382</termIdentifier>
+       <caption>
+         <langstring language="en">France</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95958-2506-11eb-adc1-0242ac120002||geo-2963597</termIdentifier>
+       <caption>
+         <langstring language="en">Ireland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95a5c-2506-11eb-adc1-0242ac120002||geo-660013</termIdentifier>
+       <caption>
+         <langstring language="en">Finland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95ba6-2506-11eb-adc1-0242ac120002||geo-732800</termIdentifier>
+       <caption>
+         <langstring language="en">Bulgaria</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95d04-2506-11eb-adc1-0242ac120002||geo-2802361</termIdentifier>
+       <caption>
+         <langstring language="en">Belgium</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e95f52-2506-11eb-adc1-0242ac120002||geo-2921044</termIdentifier>
+       <caption>
+         <langstring language="en">Germany</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e961b4-2506-11eb-adc1-0242ac120002||geo-3057568</termIdentifier>
+       <caption>
+         <langstring language="en">Slovakia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9bd6c-2506-11eb-adc1-0242ac120002||geo-2510769</termIdentifier>
+       <caption>
+         <langstring language="en">Spain</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9be98-2506-11eb-adc1-0242ac120002||geo-597427</termIdentifier>
+       <caption>
+         <langstring language="en">Lithuania</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9bf92-2506-11eb-adc1-0242ac120002||geo-718075</termIdentifier>
+       <caption>
+         <langstring language="en">North Macedonia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c078-2506-11eb-adc1-0242ac120002||geo-2264397</termIdentifier>
+       <caption>
+         <langstring language="en">Portugal</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c154-2506-11eb-adc1-0242ac120002||geo-3077311</termIdentifier>
+       <caption>
+         <langstring language="en">Czechia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c3c0-2506-11eb-adc1-0242ac120002||geo-2629691</termIdentifier>
+       <caption>
+         <langstring language="en">Iceland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c4a6-2506-11eb-adc1-0242ac120002||geo-2658434</termIdentifier>
+       <caption>
+         <langstring language="en">Switzerland</langstring>
+       </caption>
+     </term>
+   </term>
+   <term>
+     <termIdentifier>51e9c58c-2506-11eb-adc1-0242ac120002||eea32_2020</termIdentifier>
+     <caption>
+       <langstring language="en">EEA32 2020</langstring>
+     </caption>
+     <term>
+       <termIdentifier>51e9c65e-2506-11eb-adc1-0242ac120002||geo-146669</termIdentifier>
+       <caption>
+         <langstring language="en">Cyprus</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c730-2506-11eb-adc1-0242ac120002||geo-2623032</termIdentifier>
+       <caption>
+         <langstring language="en">Denmark</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c802-2506-11eb-adc1-0242ac120002||geo-3144096</termIdentifier>
+       <caption>
+         <langstring language="en">Norway</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9c8e8-2506-11eb-adc1-0242ac120002||geo-2750405</termIdentifier>
+       <caption>
+         <langstring language="en">Netherlands</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9caf0-2506-11eb-adc1-0242ac120002||geo-2960313</termIdentifier>
+       <caption>
+         <langstring language="en">Luxembourg</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9cbe0-2506-11eb-adc1-0242ac120002||geo-3042058</termIdentifier>
+       <caption>
+         <langstring language="en">Liechtenstein</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9ccb2-2506-11eb-adc1-0242ac120002||geo-3175395</termIdentifier>
+       <caption>
+         <langstring language="en">Italy</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9cd84-2506-11eb-adc1-0242ac120002||geo-2661886</termIdentifier>
+       <caption>
+         <langstring language="en">Sweden</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9ce60-2506-11eb-adc1-0242ac120002||geo-2562770</termIdentifier>
+       <caption>
+         <langstring language="en">Malta</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9cf3c-2506-11eb-adc1-0242ac120002||geo-3190538</termIdentifier>
+       <caption>
+         <langstring language="en">Slovenia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d1bc-2506-11eb-adc1-0242ac120002||geo-390903</termIdentifier>
+       <caption>
+         <langstring language="en">Greece</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d2a2-2506-11eb-adc1-0242ac120002||geo-3202326</termIdentifier>
+       <caption>
+         <langstring language="en">Croatia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d37e-2506-11eb-adc1-0242ac120002||geo-298795</termIdentifier>
+       <caption>
+         <langstring language="en">Turkey</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d45a-2506-11eb-adc1-0242ac120002||geo-458258</termIdentifier>
+       <caption>
+         <langstring language="en">Latvia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d540-2506-11eb-adc1-0242ac120002||geo-453733</termIdentifier>
+       <caption>
+         <langstring language="en">Estonia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d61c-2506-11eb-adc1-0242ac120002||geo-798549</termIdentifier>
+       <caption>
+         <langstring language="en">Romania</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d810-2506-11eb-adc1-0242ac120002||geo-798544</termIdentifier>
+       <caption>
+         <langstring language="en">Poland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d8f6-2506-11eb-adc1-0242ac120002||geo-719819</termIdentifier>
+       <caption>
+         <langstring language="en">Hungary</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9d9d2-2506-11eb-adc1-0242ac120002||geo-2782113</termIdentifier>
+       <caption>
+         <langstring language="en">Austria</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9db4e-2506-11eb-adc1-0242ac120002||geo-3017382</termIdentifier>
+       <caption>
+         <langstring language="en">France</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9dc34-2506-11eb-adc1-0242ac120002||geo-2963597</termIdentifier>
+       <caption>
+         <langstring language="en">Ireland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9dcfc-2506-11eb-adc1-0242ac120002||geo-660013</termIdentifier>
+       <caption>
+         <langstring language="en">Finland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9df4a-2506-11eb-adc1-0242ac120002||geo-732800</termIdentifier>
+       <caption>
+         <langstring language="en">Bulgaria</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e01c-2506-11eb-adc1-0242ac120002||geo-2802361</termIdentifier>
+       <caption>
+         <langstring language="en">Belgium</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e0d0-2506-11eb-adc1-0242ac120002||geo-2921044</termIdentifier>
+       <caption>
+         <langstring language="en">Germany</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e18e-2506-11eb-adc1-0242ac120002||geo-3057568</termIdentifier>
+       <caption>
+         <langstring language="en">Slovakia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e24c-2506-11eb-adc1-0242ac120002||geo-2510769</termIdentifier>
+       <caption>
+         <langstring language="en">Spain</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e30a-2506-11eb-adc1-0242ac120002||geo-597427</termIdentifier>
+       <caption>
+         <langstring language="en">Lithuania</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e3c8-2506-11eb-adc1-0242ac120002||geo-2264397</termIdentifier>
+       <caption>
+         <langstring language="en">Portugal</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e5f8-2506-11eb-adc1-0242ac120002||geo-3077311</termIdentifier>
+       <caption>
+         <langstring language="en">Czechia</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e6ca-2506-11eb-adc1-0242ac120002||geo-2629691</termIdentifier>
+       <caption>
+         <langstring language="en">Iceland</langstring>
+       </caption>
+     </term>
+     <term>
+       <termIdentifier>51e9e792-2506-11eb-adc1-0242ac120002||geo-2658434</termIdentifier>
+       <caption>
+         <langstring language="en">Switzerland</langstring>
+       </caption>
+     </term>
+   </term>
+   <term>
+     <termIdentifier>51e9e850-2506-11eb-adc1-0242ac120002||eu27_2020</termIdentifier>
+     <caption>
+       <langstring language="en">EU27 2020</langstring>
+     </caption>
+       <term>
+         <termIdentifier>51e9e90e-2506-11eb-adc1-0242ac120002||geo-146669</termIdentifier>
+         <caption>
+           <langstring language="en">Cyprus</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9e9d6-2506-11eb-adc1-0242ac120002||geo-2623032</termIdentifier>
+         <caption>
+           <langstring language="en">Denmark</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9ea94-2506-11eb-adc1-0242ac120002||geo-3190538</termIdentifier>
+         <caption>
+           <langstring language="en">Slovenia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9ec9c-2506-11eb-adc1-0242ac120002||geo-3057568</termIdentifier>
+         <caption>
+           <langstring language="en">Slovakia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9ed64-2506-11eb-adc1-0242ac120002||geo-2960313</termIdentifier>
+         <caption>
+           <langstring language="en">Luxembourg</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9ee22-2506-11eb-adc1-0242ac120002||geo-3175395</termIdentifier>
+         <caption>
+           <langstring language="en">Italy</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9eeea-2506-11eb-adc1-0242ac120002||geo-2661886</termIdentifier>
+         <caption>
+           <langstring language="en">Sweden</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9efa8-2506-11eb-adc1-0242ac120002||geo-2562770</termIdentifier>
+         <caption>
+           <langstring language="en">Malta</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f066-2506-11eb-adc1-0242ac120002||geo-390903</termIdentifier>
+         <caption>
+           <langstring language="en">Greece</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f124-2506-11eb-adc1-0242ac120002||geo-3202326</termIdentifier>
+         <caption>
+           <langstring language="en">Croatia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f1e2-2506-11eb-adc1-0242ac120002||geo-2750405</termIdentifier>
+         <caption>
+           <langstring language="en">Netherlands</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f43a-2506-11eb-adc1-0242ac120002||geo-458258</termIdentifier>
+         <caption>
+           <langstring language="en">Latvia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f502-2506-11eb-adc1-0242ac120002||geo-453733</termIdentifier>
+         <caption>
+           <langstring language="en">Estonia</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f5c0-2506-11eb-adc1-0242ac120002||geo-798549</termIdentifier>
+         <caption>
+           <langstring language="en">Romania</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f688-2506-11eb-adc1-0242ac120002||geo-798544</termIdentifier>
+         <caption>
+           <langstring language="en">Poland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f746-2506-11eb-adc1-0242ac120002||geo-719819</termIdentifier>
+         <caption>
+           <langstring language="en">Hungary</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f80e-2506-11eb-adc1-0242ac120002||geo-2782113</termIdentifier>
+         <caption>
+           <langstring language="en">Austria</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9f8cc-2506-11eb-adc1-0242ac120002||geo-3017382</termIdentifier>
+         <caption>
+           <langstring language="en">France</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9fb10-2506-11eb-adc1-0242ac120002||geo-2963597</termIdentifier>
+         <caption>
+           <langstring language="en">Ireland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9fbd8-2506-11eb-adc1-0242ac120002||geo-660013</termIdentifier>
+         <caption>
+           <langstring language="en">Finland</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9fca0-2506-11eb-adc1-0242ac120002||geo-732800</termIdentifier>
+         <caption>
+           <langstring language="en">Bulgaria</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9fd5e-2506-11eb-adc1-0242ac120002||geo-2510769</termIdentifier>
+         <caption>
+           <langstring language="en">Spain</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9fe1c-2506-11eb-adc1-0242ac120002||geo-2921044</termIdentifier>
+         <caption>
+           <langstring language="en">Germany</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9feda-2506-11eb-adc1-0242ac120002||geo-2802361</termIdentifier>
+         <caption>
+           <langstring language="en">Belgium</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51e9ff98-2506-11eb-adc1-0242ac120002||geo-597427</termIdentifier>
+         <caption>
+           <langstring language="en">Lithuania</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51ea0056-2506-11eb-adc1-0242ac120002||geo-2264397</termIdentifier>
+         <caption>
+           <langstring language="en">Portugal</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>51ea0380-2506-11eb-adc1-0242ac120002||geo-3077311</termIdentifier>
+         <caption>
+           <langstring language="en">Czechia</langstring>
+         </caption>
+       </term>
+   </term>
 </vdex>
