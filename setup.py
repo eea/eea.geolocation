@@ -42,7 +42,6 @@ setup(
         "setuptools",
         "collective.taxonomy",
         # -*- Extra requirements: -*-
-        "plone.restapi>=6.15.0"
     ],
     extras_require={
         "test": [
