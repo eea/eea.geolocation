@@ -3,8 +3,9 @@ Changelog
 
 1.1 - (2020-11-10)
 ---------------------------
-* Change: Merge #122622
-  [Petchesi-Iulian]
+* Change: Added geotags information and a script that imports said information
+  as taxonomies
+  [Petchesi-Iulian refs #122622]
 
 1.0 - (2020-10-22)
 -----------------------
