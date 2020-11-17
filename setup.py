@@ -40,6 +40,7 @@ setup(
     python_requires="==2.7, >=3.6",
     install_requires=[
         "setuptools",
+        "collective.taxonomy",
         # -*- Extra requirements: -*-
     ],
     extras_require={

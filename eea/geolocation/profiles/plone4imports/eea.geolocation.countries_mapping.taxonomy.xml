@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 imsvdex_v1p0.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd" orderSignificant="false" profileType="flatTokenTerms" language="en">
+
+  <vocabName>
+    <langstring language="en">EEA Country Names Mappings</langstring>
+  </vocabName>
+
+  <vocabIdentifier>eea.geolocation.countries_mapping.taxonomy</vocabIdentifier>
+
+   <term>
+     <termIdentifier>51ea0470-2506-11eb-adc1-0242ac120002||Czechia</termIdentifier>
+     <caption>
+       <langstring language="en">Czechia</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea052e-2506-11eb-adc1-0242ac120002||Macedonia (ARYM)</termIdentifier>
+     <caption>
+       <langstring language="en">North Macedonia</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea05e2-2506-11eb-adc1-0242ac120002||Macedonia (FYR)</termIdentifier>
+     <caption>
+       <langstring language="en">North Macedonia</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea06a0-2506-11eb-adc1-0242ac120002||Macedonia (FYROM)</termIdentifier>
+     <caption>
+       <langstring language="en">North Macedonia</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea0754-2506-11eb-adc1-0242ac120002||Kosova (Kosovo)</termIdentifier>
+     <caption>
+       <langstring language="en">Kosovo (UNSCR 1244/99)</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea0812-2506-11eb-adc1-0242ac120002||Kosovo</termIdentifier>
+     <caption>
+       <langstring language="en">Kosovo (UNSCR 1244/99)</langstring>
+     </caption>
+   </term>
+   <term>
+     <termIdentifier>51ea0a42-2506-11eb-adc1-0242ac120002||Macedonia</termIdentifier>
+     <caption>
+       <langstring language="en">North Macedonia</langstring>
+     </caption>
+   </term>
+
+</vdex>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0 imsvdex_v1p0.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd" orderSignificant="false" profileType="flatTokenTerms" language="en">
+
+  <vocabName>
+    <langstring language="en-us">Biogeographical Regions</langstring>
+  </vocabName>
+
+  <vocabIdentifier>eea.geolocation.biotags.taxonomy</vocabIdentifier>
+
+   <term>
+     <termIdentifier>e81f867e19f3ec055f015ba6514a5852||MMAC</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Macaronesian/Atlantic ocean</langstring>
+     </caption>
+       <term>
+         <termIdentifier>a94f051562db07fd6e1d845913dc68bc||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">28.29</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>bf071ada193e0f3c4b407bb3ff01ee6a||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">-15.63</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>134170c8194411ffe0decbd2416f3864||STE</termIdentifier>
+     <caption>
+       <langstring language="en-us">Steppic</langstring>
+     </caption>
+       <term>
+         <termIdentifier>890193f8b8de7e82dd235b07984d2880||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">44.212</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>472b452b265d16d9f905ff89e30f86da||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">28.255</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>4439704a80a6f538bc6167bb89cf33af||MED</termIdentifier>
+     <caption>
+       <langstring language="en-us">Mediterranean</langstring>
+     </caption>
+       <term>
+         <termIdentifier>bede5fe6df2f85b8afd87094f8859337||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">37.72</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>43b15ed0b7f5ea67fa2cb0f6a4dfae3e||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">12.89</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>adda292af430a4ff6c41322903f6344a||PAN</termIdentifier>
+     <caption>
+       <langstring language="en-us">Pannonian</langstring>
+     </caption>
+       <term>
+         <termIdentifier>199359f875e05a18062c35a3fe905eef||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">19.04</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>4e0e2834c8ba74d7318a261c2da8c225||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">47.49</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>3200c97069dbd55ba70519851740da2d||MMED</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Mediterranean sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>e65db7283b36681fcb585dc047a3f2a0||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">34.553</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>f3edcdcbfd2a8f254cec0591d26ae586||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">18.048</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>b3f2097f3637f4fb2a3b7d9706b4d612||BLS</termIdentifier>
+     <caption>
+       <langstring language="en-us">Black Sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>1dbac6685189da9646fea786f22fa04b||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">28.532</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>ea45f0bc1867b655848a843e5e28fa3f||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">43.536</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>02c0294ad48eaf0b7e09d3bd6e63fcc4||MBLS</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Black sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>41a054395c49fa0143d566999909b133||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">34.299</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>fb119db25b8293a1c202fbe67e5e136a||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">43.413</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>2b184724fc8b67a4036fd6239a8ccbe9||CON</termIdentifier>
+     <caption>
+       <langstring language="en-us">Continental</langstring>
+     </caption>
+       <term>
+         <termIdentifier>1348c4e452b9c610f5498984ebb821cf||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">49.91</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>9e203ea47278f8a893dd7fd3b81dbdbf||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">10.82</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>3e2678cd2a95d4929aa20d5be2462160||MCAS</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Caspian sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>2a0b64da46fcf79049dd2689198b38cb||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">50.668</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>a90725be6a527bee4d1d876866b50d1d||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">41.934</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>c2c5932aa6ef8bb1d569744f5d3b3a5c||MATL</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine North-east Atlantic ocean</langstring>
+     </caption>
+       <term>
+         <termIdentifier>f5db5e2d10d400989721416e817599df||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">35.74</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>89ffd26a6350371100c9e6e3c50a15a7||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">-39.46</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>f77b1e043985825a2934ef2f62ea3c0e||BOR</termIdentifier>
+     <caption>
+       <langstring language="en-us">Boreal</langstring>
+     </caption>
+       <term>
+         <termIdentifier>a917209830aa4110a5a88edd821cf1af||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">60.15</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>14dcb0a65edc70dd5fe6172166f2b047||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">19.96</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>f9ad0d0158f7842d0250dd3b9774cf9a||ATL</termIdentifier>
+     <caption>
+       <langstring language="en-us">Atlantic</langstring>
+     </caption>
+       <term>
+         <termIdentifier>1aab75ec30db939cf48ba94c0f394c96||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">50.826</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>9437fedbeabe22401cbe5147c068bc5c||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">1.902</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>f50ae21cbc9c6fea5874862179b985a3||MBAL</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Baltic sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>826c26f4057c3a9c7ad7cb54faaea7c9||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">19.86</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>4b834223a9b952395fea57dd611b4a06||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">58.48</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>c87aab70b32c2062cc8cc84dd30e73d9||ALP</termIdentifier>
+     <caption>
+       <langstring language="en-us">Alpine</langstring>
+     </caption>
+       <term>
+         <termIdentifier>2abc8a19d88841fb441bf2d342e11935||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">46.61</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>55fd3f9f1e86045464e54576af2808b9||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">10.85</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>8dedd1b8746f8c6b1462823d04d3d12b||ANA</termIdentifier>
+     <caption>
+       <langstring language="en-us">Anatolian</langstring>
+     </caption>
+       <term>
+         <termIdentifier>c5e60a23bf6f8340a42858df4b903142||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">49.12</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>500b440c8c2db019eb5407497bdc6b35||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">-1.30</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>150e39c3f3ccf4ab43367ccdc6e65703||MARC</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine Arctic Ocean</langstring>
+     </caption>
+       <term>
+         <termIdentifier>041cb4115954d2418e44aeb8dfd96f58||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">82.402</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>6fb6c60cbb867e531a7ddcffbe31a2a9||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">37.265</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>f3cc91c3f3b4a033021f7a56f9a6526a||ARC</termIdentifier>
+     <caption>
+       <langstring language="en-us">Arctic</langstring>
+     </caption>
+       <term>
+         <termIdentifier>f0841c4b8a3dbc6d60468106bc0ed7f8||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">70.259</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>bbe335e8660ab666649bec21aefc7812||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">29.548</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>712ed32c76f1e0675f79be274c9c5119||MNOS</termIdentifier>
+     <caption>
+       <langstring language="en-us">Marine North sea</langstring>
+     </caption>
+       <term>
+         <termIdentifier>824fdb17c9f6b8bd389ad6638541cfb7||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">3.515</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>481dfb7b3fdebe6f34f93d7f7d35de57||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">56.511</langstring>
+         </caption>
+       </term>
+   </term>
+   <term>
+     <termIdentifier>b8c90e70cea62bbb6f798aa7f01bcaa9||MAC</termIdentifier>
+     <caption>
+       <langstring language="en-us">Macaronesia</langstring>
+     </caption>
+       <term>
+         <termIdentifier>15cf3665733388cf9a46510bb506dab4||latitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">28.29</langstring>
+         </caption>
+       </term>
+       <term>
+         <termIdentifier>ae49b94de813a7b59dc000e42727d4e5||longitude</termIdentifier>
+         <caption>
+           <langstring language="en-us">-16.63</langstring>
+         </caption>
+       </term>
+   </term>
+
+</vdex>
