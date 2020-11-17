@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.2-dev0 - (unreleased)
+---------------------------
+
 1.1 - (2020-11-10)
 ---------------------------
 * Change: Added geotags information and a script that imports said information
