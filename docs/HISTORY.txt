@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.2-dev0 - (unreleased)
+1.2 - (2020-11-23)
 ---------------------------
 * Change: Modified the structure of the imported xmls
   [Petchesi-Iulian refs #122622]
