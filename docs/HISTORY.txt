@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.2 - (2020-11-23)
+---------------------------
+* Change: Modified the structure of the imported xmls
+  [Petchesi-Iulian refs #122622]
+
 1.1 - (2020-11-10)
 ---------------------------
 * Change: Added geotags information and a script that imports said information
