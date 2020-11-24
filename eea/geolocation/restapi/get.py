@@ -1,5 +1,7 @@
 """ RestAPI enpoint @geolocation GET
 """
+# pylint: disable = W0702
+# pylint: disable = W0612
 from collective.taxonomy.interfaces import ITaxonomy
 from eea.geolocation.interfaces import IGeolocationClientSettings
 from plone import api
