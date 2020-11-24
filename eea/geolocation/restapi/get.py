@@ -63,7 +63,7 @@ class GetVocabularies(Service):
                 identifier = value
                 data = {}
                 data.update({'title': identifier})
-                identifier_key =  "_".join(value.split(" ")).lower()
+                identifier_key = "_".join(value.split(" ")).lower()
                 geodata.update({identifier_key: data})
 
             if 'geo' not in value:
