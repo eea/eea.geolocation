@@ -22,6 +22,7 @@ class EEAFixture(PloneSandboxLayer):
     def setUpPloneSite(self, portal):
         """ Setup Plone
         """
+        applyProfile(portal, 'collective.taxonomy:default')
         applyProfile(portal, 'eea.geolocation:default')
 
         # Default workflow
