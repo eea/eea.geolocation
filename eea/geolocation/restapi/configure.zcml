@@ -16,4 +16,12 @@
     permission="eea.geolocation.settings.view"
     />
 
+  <plone:service
+    method="GET"
+    name="@geodata"
+    for="Products.CMFCore.interfaces.ISiteRoot"
+    factory=".get.GetVocabularies"
+    permission="eea.geolocation.settings.view"
+    />
+
 </configure>
