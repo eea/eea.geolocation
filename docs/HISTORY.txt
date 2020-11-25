@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.4-dev0 - (unreleased)
+1.4 - (2020-11-25)
 ---------------------------
 * Change: Added collective.taxonomy dependency in metadata.xml
   [iulianpetchesi refs #122622]
