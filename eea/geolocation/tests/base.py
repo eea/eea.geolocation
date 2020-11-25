@@ -16,7 +16,10 @@ class EEAFixture(PloneSandboxLayer):
         """ Setup Zope
         """
         import eea.geolocation
+        import collective.taxonomy
+        self.loadZCML(package=collective.taxonomy)
         self.loadZCML(package=eea.geolocation)
+        z2.installProduct(app, 'collective.taxonomy')
         z2.installProduct(app, 'eea.geolocation')
 
     def setUpPloneSite(self, portal):
