@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.5-dev0 - (unreleased)
+1.5 - (2021-04-27)
 ---------------------------
 * Change: Added template override for collective.taxonomy edit template in
   order to load the javascript via javascript_head_slot
