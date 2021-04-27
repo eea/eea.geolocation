@@ -3,8 +3,8 @@ Changelog
 
 1.5-dev0 - (unreleased)
 ---------------------------
-* Change: Added jsregistry entry in order to load the collective.taxonomy js
-  on Plone 4 without webpack
+* Change: Added template override for collective.taxonomy edit template in
+  order to load the javascript via javascript_head_slot
   [iulianpetchesi refs #131545]
 
 1.4 - (2020-11-25)
