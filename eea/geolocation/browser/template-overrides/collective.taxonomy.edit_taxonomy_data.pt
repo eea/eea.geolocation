@@ -31,9 +31,6 @@
 
         </div>
 
-        <span class="testmata"> TESTOVERRIDETEMPOLAT</span>
-        <!--<script type="text/javascript" tal:attributes="src view/get_resource_url"></script>-->
-
       </metal:block>
 
     </body>
