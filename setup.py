@@ -42,6 +42,7 @@ setup(
         "setuptools",
         "collective.taxonomy",
         # -*- Extra requirements: -*-
+        "z3c.jbot",
     ],
     extras_require={
         "test": [
