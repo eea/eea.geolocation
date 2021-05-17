@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.6-dev0 - (unreleased)
+1.6 - (2021-05-17)
 ---------------------------
 * Bug fix: Remove z3c.jbot dependency as it conflicts with eea.pdf downloads
   [avoinea refs #133890]
