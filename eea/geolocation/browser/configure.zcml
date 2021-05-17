@@ -10,4 +10,13 @@
     class=".controlpanel.ControlPanelView"
     />
 
+  <browser:page
+    name="taxonomy-edit-data"
+    for="Products.CMFCore.interfaces.ISiteRoot"
+    class="collective.taxonomy.jsonimpl.EditTaxonomyData"
+    template="edit_taxonomy_data.pt"
+    permission="cmf.ManagePortal"
+    layer="eea.geolocation.interfaces.IEeaGeolocationLayer"
+    />
+
 </configure>
