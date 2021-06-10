@@ -47,11 +47,10 @@ def post_install(context):
     """ Post install script
     """
     site = context.aq_parent
+    language = 'en'
     if IS_PLONE_4:
-        language = 'en'
         directory = '/profiles/plone4imports/'
     else:
-        language = 'en-us'
         directory = '/profiles/plone5imports/'
 
     for name, title in TAXONOMIES.items():
