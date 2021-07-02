@@ -4,7 +4,7 @@
   i18n_domain="eea">
 
   <browser:page
-    name="geolocation-controlpanel"
+    name="eea-geolocation-controlpanel"
     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
     permission="eea.geolocation.settings.edit"
     class=".controlpanel.ControlPanelView"
