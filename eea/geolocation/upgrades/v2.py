@@ -1,3 +1,4 @@
+"""Upgrade to v2"""
 # -*- coding: utf-8 -*-
 
 import logging
@@ -8,6 +9,6 @@ import logging
 
 
 def upgrade(setup_tool=None):
-    """ """
+    """Upgrade to rename controlpanel id"""
     logger = logging.getLogger("eea.geolocation")
     logger.info("Running upgrade (Python): Rename controlpanel id")
