@@ -59,7 +59,7 @@ class GetVocabularies(Service):
             vocabulary = taxonomy.makeVocabulary('en')
 
         for value, key in vocabulary.iterEntries():
-            value = value.encode('latin-1', 'ignore').decode('latin-1')
+            value = value.encode('ascii', 'ignore').decode('ascii')
 
             if identifier not in value:
                 identifier = value
@@ -88,7 +88,7 @@ class GetVocabularies(Service):
 
         data = {}
         for value, key in vocabulary.iterEntries():
-            value = value.encode('latin-1', 'ignore').decode('latin-1')
+            value = value.encode('ascii', 'ignore').decode('ascii')
 
             if identifier not in value:
                 identifier = value
@@ -121,7 +121,7 @@ class GetVocabularies(Service):
             vocabulary = taxonomy.makeVocabulary('en')
 
         for value, key in vocabulary.iterEntries():
-            value = value.encode('latin-1', 'ignore').decode('latin-1')
+            value = value.encode('ascii', 'ignore').decode('ascii')
 
             if identifier not in value:
                 identifier = value
