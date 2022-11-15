@@ -1,6 +1,9 @@
 Changelog
 =========
 
+2.5-dev0 - (unreleased)
+---------------------------
+
 2.4 - (2022-11-15)
 ---------------------------
 * Change: Restore old encoding for restapi
