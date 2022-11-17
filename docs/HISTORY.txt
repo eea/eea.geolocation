@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.5 - (2022-11-17)
+---------------------------
+* Change: Changed restapi encoding from ascii to latin-1 in order to better
+  represent ascii characters
+  [iulianpetchesi refs #153129]
+
 2.4 - (2022-11-15)
 ---------------------------
 * Change: Restore old encoding for restapi
