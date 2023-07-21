@@ -4,7 +4,7 @@ pipeline {
   environment {
         GIT_NAME = "eea.geolocation"
         VERSIONS = "plone.restapi=7.0.0a6.eea-dev1 plone.schema=1.2.1"
-        SONARQUBE_TAGS = "www.eea.europa.eu"
+        SONARQUBE_TAGS = "www.eea.europa.eu,www.eionet.europa.eu,biodiversity.europa.eu,forest.eea.europa.eu,industry.eea.europa.eu"
         FTEST_DIR = "eea/geolocation/ftests"
     }
 
