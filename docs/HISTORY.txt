@@ -3,6 +3,8 @@ Changelog
 
 2.6-dev0 - (unreleased)
 ---------------------------
+* Change: updated profile for the "Biogeographical Regions" taxonomy
+  [alecghica refs #265225]
 
 2.5 - (2022-11-17)
 ---------------------------
