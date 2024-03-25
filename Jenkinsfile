@@ -4,7 +4,7 @@ pipeline {
   environment {
         GIT_NAME = "eea.geolocation"
         VERSIONS = "plone.restapi=7.0.0a6.eea-dev1 plone.schema=1.2.1"
-        SONARQUBE_TAGS = "www.eea.europa.eu"
+        SONARQUBE_TAGS = "www.eea.europa.eu,www.eionet.europa.eu,biodiversity.europa.eu,forest.eea.europa.eu,industry.eea.europa.eu"
         FTEST_DIR = "eea/geolocation/ftests"
     }
 
@@ -114,11 +114,11 @@ pipeline {
             }
           },
 
-          "Plone5 & Python2": {
-            node(label: 'docker') {
-              sh '''docker run -i --rm --name="$BUILD_TAG-plone5" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5 -v -vv -s $GIT_NAME'''
-            }
-          },
+//          "Plone5 & Python2": {
+//            node(label: 'docker') {
+//              sh '''docker run -i --rm --name="$BUILD_TAG-plone5" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5 -v -vv -s $GIT_NAME'''
+//            }
+//          },
 
           "Plone5 & Python3": {
             node(label: 'docker') {

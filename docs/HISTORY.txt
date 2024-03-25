@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.6 - (2024-03-25)
+---------------------------
+* Change: updated profile for the "Biogeographical Regions" taxonomy
+  [alecghica refs #265225]
+
 2.5 - (2022-11-17)
 ---------------------------
 * Change: Changed restapi encoding from ascii to latin-1 in order to better
