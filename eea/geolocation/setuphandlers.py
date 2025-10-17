@@ -1,8 +1,5 @@
 """ Custom setup
 """
-# pylint: disable = W0612
-# pylint: disable = W0611
-# pylint: disable = C0412
 import os
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.component import getUtility, queryUtility
