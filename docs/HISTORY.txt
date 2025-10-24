@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.7-dev0 - (unreleased)
+---------------------------
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+
 2.6 - (2024-03-25)
 ---------------------------
 * Change: updated profile for the "Biogeographical Regions" taxonomy
