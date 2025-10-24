@@ -1,18 +1,19 @@
-""" Control Panel
-"""
+"""Control Panel"""
+
 from plone.app.registry.browser import controlpanel
 from eea.geolocation.interfaces import IGeolocationClientSettings
 from eea.geolocation import EEAMessageFactory as _
 
 
 class ControlPanelForm(controlpanel.RegistryEditForm):
-    """ Client Control Panel Form."""
+    """Client Control Panel Form."""
+
     id = "geolocation"
-    label = _(u"Geolocation Settings")
+    label = _("Geolocation Settings")
     schema = IGeolocationClientSettings
 
 
 class ControlPanelView(controlpanel.ControlPanelFormWrapper):
-    """ Control Panel
-    """
+    """Control Panel"""
+
     form = ControlPanelForm
