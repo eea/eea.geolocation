@@ -1,8 +1,5 @@
-""" Custom setup
-"""
-# pylint: disable = W0612
-# pylint: disable = W0611
-# pylint: disable = C0412
+"""Custom setup"""
+
 import os
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.component import getUtility, queryUtility
@@ -17,6 +14,7 @@ from collective.taxonomy.interfaces import ITaxonomy
 try:
     # Plone 4
     from Products.CMFPlone.interfaces import IFactoryTool
+
     assert IFactoryTool
     IS_PLONE_4 = True
 except ImportError:
@@ -24,40 +22,36 @@ except ImportError:
 
 
 TAXONOMIES = {
-    'eea.geolocation.biotags.taxonomy': 'Biogeographical Regions',
-    'eea.geolocation.geotags.taxonomy': 'EEA Geolocation Geotags',
-    'eea.geolocation.countries_mapping.taxonomy': 'EEA Country Names Mappings',
+    "eea.geolocation.biotags.taxonomy": "Biogeographical Regions",
+    "eea.geolocation.geotags.taxonomy": "EEA Geolocation Geotags",
+    "eea.geolocation.countries_mapping.taxonomy": "EEA Country Names Mappings",
 }
 
 
 @implementer(INonInstallable)
 class HiddenProfiles(object):
-    """ Hidden profiles
-    """
+    """Hidden profiles"""
 
     def getNonInstallableProfiles(self):
-        """ Hide uninstall profile from site-creation and quickinstaller.
-        """
+        """Hide uninstall profile from site-creation and quickinstaller."""
         return [
-            'eea.geolocation:uninstall',
+            "eea.geolocation:uninstall",
         ]
 
 
 def post_install(context):
-    """ Post install script
-    """
+    """Post install script"""
     site = context.aq_parent
-    language = 'en'
+    language = "en"
     if IS_PLONE_4:
-        directory = '/profiles/plone4imports/'
+        directory = "/profiles/plone4imports/"
     else:
-        directory = '/profiles/plone5imports/'
+        directory = "/profiles/plone5imports/"
 
     for name, title in TAXONOMIES.items():
-        taxonomy = registerTaxonomy(site, name, title, language,
-                                    'Created at install')
+        taxonomy = registerTaxonomy(site, name, title, language, "Created at install")
         path = os.path.dirname(os.path.realpath(__file__))
-        path += directory + name + '.xml'
+        path += directory + name + ".xml"
 
         with open(path) as xmlfile:
             data = xmlfile.read().encode()
@@ -66,8 +60,7 @@ def post_install(context):
 
 
 def uninstall(context):
-    """ Uninstall script
-    """
+    """Uninstall script"""
     site = context.aq_parent
     normalizer = getUtility(IIDNormalizer)
 
@@ -78,6 +71,7 @@ def uninstall(context):
 
         if IS_PLONE_4:
             from zope.component import getSiteManager
+
             sm = getSiteManager()
         else:
             sm = site.getSiteManager()
