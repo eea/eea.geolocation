@@ -1,5 +1,5 @@
-""" eea.geolocation Installer
-"""
+"""eea.geolocation Installer"""
+
 import os
 from os.path import join
 from setuptools import setup, find_packages
@@ -14,8 +14,9 @@ setup(
     description="Geonames settings EEA country groups/regions vocabularies",
     long_description_content_type="text/x-rst",
     long_description=(
-        open("README.rst").read() + "\n" + open(
-            os.path.join("docs", "HISTORY.txt")).read()
+        open("README.rst").read()
+        + "\n"
+        + open(os.path.join("docs", "HISTORY.txt")).read()
     ),
     classifiers=[
         "Environment :: Web Environment",
