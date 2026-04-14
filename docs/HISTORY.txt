@@ -1,8 +1,10 @@
 Changelog
 =========
 
-2.8-dev0 - (unreleased)
+2.8 - (2026-04-14)
 ---------------------------
+* Change: feat: Add integration tests for @geolocation REST API views
+  [avoinea]
 
 2.7 - (2025-11-18)
 ---------------------------
