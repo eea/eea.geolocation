@@ -22,6 +22,7 @@ class TestGeolocationSetup(unittest.TestCase):
     def test_product_installed(self):
         """Test that eea.geolocation is installed"""
         from Products.CMFPlone.utils import get_installer
+
         installer = get_installer(self.portal, self.layer["request"])
         self.assertTrue(installer.is_product_installed("eea.geolocation"))
 
@@ -40,16 +41,19 @@ class TestGeolocationModuleImport(unittest.TestCase):
     def test_get_class_importable(self):
         """Test that Get view class can be imported"""
         from eea.geolocation.restapi.get import Get
+
         self.assertIsNotNone(Get)
 
     def test_vocabularies_class_importable(self):
         """Test that GetVocabularies class can be imported"""
         from eea.geolocation.restapi.get import GetVocabularies
+
         self.assertIsNotNone(GetVocabularies)
 
     def test_geolocation_settings_importable(self):
         """Test that IGeolocationClientSettings can be imported"""
         from eea.geolocation.interfaces import IGeolocationClientSettings
+
         self.assertIsNotNone(IGeolocationClientSettings)
 
 
