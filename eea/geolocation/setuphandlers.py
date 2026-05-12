@@ -11,15 +11,6 @@ from collective.taxonomy.exportimport import TaxonomyImportExportAdapter
 from collective.taxonomy.factory import registerTaxonomy
 from collective.taxonomy.interfaces import ITaxonomy
 
-try:
-    # Plone 4
-    from Products.CMFPlone.interfaces import IFactoryTool
-
-    assert IFactoryTool
-    IS_PLONE_4 = True
-except ImportError:
-    IS_PLONE_4 = False
-
 
 TAXONOMIES = {
     "eea.geolocation.biotags.taxonomy": "Biogeographical Regions",
@@ -43,10 +34,7 @@ def post_install(context):
     """Post install script"""
     site = context.aq_parent
     language = "en"
-    if IS_PLONE_4:
-        directory = "/profiles/plone4imports/"
-    else:
-        directory = "/profiles/plone5imports/"
+    directory = "/profiles/plone5imports/"
 
     for name, title in TAXONOMIES.items():
         taxonomy = registerTaxonomy(site, name, title, language, "Created at install")
@@ -69,12 +57,7 @@ def uninstall(context):
         utility_name = "collective.taxonomy." + normalized_name
         taxonomy = queryUtility(ITaxonomy, name=utility_name)
 
-        if IS_PLONE_4:
-            from zope.component import getSiteManager
-
-            sm = getSiteManager()
-        else:
-            sm = site.getSiteManager()
+        sm = site.getSiteManager()
 
         sm.unregisterUtility(taxonomy, ITaxonomy, name=utility_name)
         sm.unregisterUtility(taxonomy, IVocabularyFactory, name=utility_name)

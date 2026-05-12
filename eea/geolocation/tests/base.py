@@ -1,6 +1,5 @@
 """Base test cases"""
 
-from Products.CMFPlone import setuphandlers
 from plone.testing import z2
 from plone.app.testing import TEST_USER_ID
 from plone.app.testing import PloneSandboxLayer
@@ -35,11 +34,7 @@ class EEAFixture(PloneSandboxLayer):
         setRoles(portal, TEST_USER_ID, ["Manager"])
 
         # Add default Plone content
-        try:
-            applyProfile(portal, "plone.app.contenttypes:plone-content")
-        except KeyError:
-            # BBB Plone 4
-            setuphandlers.setupPortalContent(portal)
+        applyProfile(portal, "plone.app.contenttypes:plone-content")
 
         # Create testing environment
         portal.invokeFactory("Folder", "sandbox", title="Sandbox")

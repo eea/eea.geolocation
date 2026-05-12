@@ -31,7 +31,6 @@ Install
 
 * You can download a sample buildout from:
 
-  - https://github.com/eea/eea.geolocation/tree/master/buildouts/plone4
   - https://github.com/eea/eea.geolocation/tree/master/buildouts/plone5
 
 * Or via docker::
@@ -44,15 +43,13 @@ Install
 Buildout installation
 =====================
 
-- `Plone 4+ <https://github.com/eea/eea.geolocation/tree/master/buildouts/plone4>`_
-- `Plone 5+ <https://github.com/eea/eea.geolocation/tree/master/buildouts/plone5>`_
+- `Plone 5.2+ <https://github.com/eea/eea.geolocation/tree/master/buildouts/plone5>`_
 
 
 Source code
 ===========
 
-- `Plone 4+ on github <https://github.com/eea/eea.geolocation>`_
-- `Plone 5+ on github <https://github.com/eea/eea.geolocation>`_
+- `Plone 5.2+ on github <https://github.com/eea/eea.geolocation>`_
 
 
 Eggs repository
@@ -64,7 +61,7 @@ Eggs repository
 
 Plone versions
 ==============
-It has been developed and tested for Plone 4 and 5. See buildouts section above.
+It has been developed and tested for Plone 5.2 and 6.0.
 
 
 How to contribute

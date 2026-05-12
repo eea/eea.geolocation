@@ -1,8 +1,10 @@
 Changelog
 =========
 
-2.9-dev0 - (unreleased)
+3.0-dev0 - (unreleased)
 ---------------------------
+* Change: Drop Python 2.7 and Plone 4 support.
+  [avoinea]
 
 2.8 - (2026-04-14)
 ---------------------------
