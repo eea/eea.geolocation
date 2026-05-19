@@ -1,91 +1,7 @@
 """Helpers for derived geographic coverage grouping."""
 
-from collective.taxonomy.interfaces import ITaxonomy
-from plone.i18n.normalizer.interfaces import IIDNormalizer
-from zope.component import getUtility
-from zope.component import queryUtility
-
-GEOTAGS_TAXONOMY = "eea.geolocation.geotags.taxonomy"
-COUNTRIES_MAPPING_TAXONOMY = "eea.geolocation.countries_mapping.taxonomy"
-
-
-def taxonomy_utility_name(name):
-    """Return the generated collective.taxonomy utility name."""
-    normalizer = queryUtility(IIDNormalizer) or getUtility(IIDNormalizer)
-    normalized_name = normalizer.normalize(name).replace("-", "")
-    return "collective.taxonomy." + normalized_name
-
-
-def get_taxonomy_vocabulary(name, context=None, language="en"):
-    """Return taxonomy vocabulary for a taxonomy name."""
-    try:
-        utility_name = taxonomy_utility_name(name)
-    except Exception:
-        return None
-
-    taxonomy = queryUtility(ITaxonomy, name=utility_name)
-    if taxonomy is None:
-        return None
-
-    try:
-        return taxonomy(context)
-    except Exception:
-        return taxonomy.makeVocabulary(language)
-
-
-def get_geotags(context=None, vocabulary=None):
-    """Return geotags in the same structure exposed by ``@geodata``."""
-    vocabulary = vocabulary or get_taxonomy_vocabulary(
-        GEOTAGS_TAXONOMY, context=context
-    )
-    if vocabulary is None:
-        return {}
-
-    geotags = {}
-    identifier = "placeholderidentifier"
-    data = {}
-    country = ""
-
-    for value, _key in vocabulary.iterEntries():
-        value = value.encode("latin-1", "ignore").decode("latin-1")
-
-        if identifier not in value:
-            identifier = value
-            data = {"title": identifier}
-            identifier_key = "_".join(value.split(" ")).lower()
-            geotags[identifier_key] = data
-            continue
-
-        if "geo" not in value:
-            country = value.split(identifier)[-1]
-            continue
-
-        geotag = value.split(country)[-1]
-        data[geotag] = country
-
-    return geotags
-
-
-def get_country_mappings(context=None):
-    """Return country label mappings from taxonomy."""
-    vocabulary = get_taxonomy_vocabulary(COUNTRIES_MAPPING_TAXONOMY, context=context)
-    if vocabulary is None:
-        return {}
-
-    country_mappings = {}
-    identifier = "placeholderidentifier"
-
-    for value, _key in vocabulary.iterEntries():
-        value = value.encode("latin-1", "ignore").decode("latin-1")
-
-        if identifier not in value:
-            identifier = value
-            continue
-
-        country = value.split(identifier)[-1] or identifier
-        country_mappings[country] = identifier
-
-    return country_mappings
+from eea.geolocation.geodata import get_country_mappings
+from eea.geolocation.geodata import get_geotags
 
 
 def grouped_geolocation(
@@ -155,3 +71,13 @@ def grouped_geolocation(
     ungrouped = [item for item in selected if item["value"] not in covered_values]
 
     return {"groups": groups, "ungrouped": ungrouped}
+
+
+def serialize_grouped_geolocation(geo_coverage, context=None):
+    """Return geo coverage with additive grouped geolocation data."""
+    if not isinstance(geo_coverage, dict):
+        return geo_coverage
+
+    value = geo_coverage.copy()
+    value["grouped_geolocation"] = grouped_geolocation(value, context=context)
+    return value

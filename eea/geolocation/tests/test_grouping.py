@@ -1,9 +1,8 @@
-"""Tests for grouped geographic coverage helpers."""
-
-from eea.geolocation.grouping import grouped_geolocation
-from eea.geolocation.grouping import get_geotags
-
 import unittest
+
+from eea.geolocation.geodata import get_geotags
+from eea.geolocation.grouping import grouped_geolocation
+from eea.geolocation.grouping import serialize_grouped_geolocation
 
 
 class GroupedGeolocationTest(unittest.TestCase):
@@ -133,6 +132,23 @@ class GroupedGeolocationTest(unittest.TestCase):
                     }
                 ],
                 "ungrouped": [],
+            },
+        )
+
+    def test_serialize_grouped_geolocation_adds_derived_data(self):
+        geo_coverage = {"geolocation": [{"value": "geo-a", "label": "Austria"}]}
+
+        self.assertEqual(
+            serialize_grouped_geolocation(
+                geo_coverage,
+                context=None,
+            ),
+            {
+                "geolocation": [{"value": "geo-a", "label": "Austria"}],
+                "grouped_geolocation": {
+                    "groups": [],
+                    "ungrouped": [{"value": "geo-a", "label": "Austria"}],
+                },
             },
         )
 
