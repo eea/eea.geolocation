@@ -1,6 +1,13 @@
 Changelog
 =========
 
+3.0 - (2026-06-17)
+---------------------------
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+  geotags taxonomy. Includes upgrade step for existing sites and
+  updated VDEX profile for new installations.
+  [avoinea - refs #304772]
+
 2.8 - (2026-04-14)
 ---------------------------
 * Change: feat: Add integration tests for @geolocation REST API views
