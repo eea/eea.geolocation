@@ -1,0 +1,15 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+  xmlns:gs="http://namespaces.zope.org/genericsetup">
+
+  <gs:upgradeSteps
+    source="2.0"
+    destination="3.0"
+    profile="eea.geolocation:default">
+
+    <gs:upgradeStep title="Add EEA40 member states to geotags taxonomy"
+      description="Add EEA40 group (EEA38 + Ukraine + Moldova) to geolocation geotags taxonomy"
+      handler=".evolve30.add_eea40_taxonomy" />
+
+  </gs:upgradeSteps>
+
+</configure>
