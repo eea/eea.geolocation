@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.1-dev0 - (unreleased)
+---------------------------
+
 4.0 - (2026-06-25)
 ---------------------------
 * Feature: Add grouped geographic coverage helper methos
