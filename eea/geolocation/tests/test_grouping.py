@@ -1,6 +1,6 @@
 import unittest
 
-from eea.geolocation.geodata import get_geotags
+from eea.geolocation.geodata import parse_geotags_vocabulary
 from eea.geolocation.grouping import grouped_geolocation
 from eea.geolocation.grouping import serialize_grouped_geolocation
 
@@ -8,7 +8,7 @@ from eea.geolocation.grouping import serialize_grouped_geolocation
 class GroupedGeolocationTest(unittest.TestCase):
     """Test grouped geolocation derivation."""
 
-    def test_get_geotags_uses_existing_taxonomy_entry_order(self):
+    def test_parse_geotags_uses_existing_taxonomy_entry_order(self):
         class Vocabulary:
             def iterEntries(self):
                 return iter(
@@ -22,7 +22,7 @@ class GroupedGeolocationTest(unittest.TestCase):
                 )
 
         self.assertEqual(
-            get_geotags(vocabulary=Vocabulary()),
+            parse_geotags_vocabulary(Vocabulary()),
             {
                 "eea32": {
                     "title": "eea32",

@@ -2,6 +2,7 @@
 
 from collective.taxonomy.interfaces import ITaxonomy
 from plone.i18n.normalizer.interfaces import IIDNormalizer
+from plone.memoize.ram import cache
 from zope.component import getUtility
 from zope.component import queryUtility
 
@@ -35,11 +36,6 @@ def get_taxonomy_vocabulary(name, context=None, language="en"):
         return taxonomy.makeVocabulary(language)
 
 
-def normalize_taxonomy_value(value):
-    """Normalize taxonomy values the same way as the original endpoint."""
-    return value.encode("latin-1", "ignore").decode("latin-1")
-
-
 def parse_geotags_vocabulary(vocabulary):
     """Return geotags from a taxonomy vocabulary."""
     geodata = {}
@@ -48,8 +44,6 @@ def parse_geotags_vocabulary(vocabulary):
     country = ""
 
     for value, _key in vocabulary.iterEntries():
-        value = normalize_taxonomy_value(value)
-
         if identifier not in value:
             identifier = value
             data = {"title": identifier}
@@ -72,8 +66,6 @@ def parse_biotags_vocabulary(vocabulary):
     data = {}
 
     for value, _key in vocabulary.iterEntries():
-        value = normalize_taxonomy_value(value)
-
         if identifier not in value:
             identifier = value
             data = {"title": identifier}
@@ -98,8 +90,6 @@ def parse_country_mappings_vocabulary(vocabulary):
     identifier = "placeholderidentifier"
 
     for value, _key in vocabulary.iterEntries():
-        value = normalize_taxonomy_value(value)
-
         if identifier not in value:
             identifier = value
         else:
@@ -109,31 +99,30 @@ def parse_country_mappings_vocabulary(vocabulary):
     return countrydata
 
 
-def get_geotags(context=None, vocabulary=None):
+@cache(lambda method, *args, **kwargs: "geotags")
+def get_geotags(context=None):
     """Return geotags in the same structure exposed by ``@geodata``."""
-    vocabulary = vocabulary or get_taxonomy_vocabulary(
-        GEOTAGS_TAXONOMY, context=context
-    )
+    vocabulary = get_taxonomy_vocabulary(GEOTAGS_TAXONOMY, context=context)
     if vocabulary is None:
         return {}
 
     return parse_geotags_vocabulary(vocabulary)
 
 
-def get_biotags(context=None, vocabulary=None):
+@cache(lambda method, *args, **kwargs: "biotags")
+def get_biotags(context=None):
     """Return biotags in the same structure exposed by ``@geodata``."""
-    vocabulary = vocabulary or get_taxonomy_vocabulary(
-        BIOTAGS_TAXONOMY, context=context
-    )
+    vocabulary = get_taxonomy_vocabulary(BIOTAGS_TAXONOMY, context=context)
     if vocabulary is None:
         return {}
 
     return parse_biotags_vocabulary(vocabulary)
 
 
-def get_country_mappings(context=None, vocabulary=None):
+@cache(lambda method, *args, **kwargs: "country_mappings")
+def get_country_mappings(context=None):
     """Return country label mappings from taxonomy."""
-    vocabulary = vocabulary or get_taxonomy_vocabulary(
+    vocabulary = get_taxonomy_vocabulary(
         COUNTRIES_MAPPING_TAXONOMY, context=context
     )
     if vocabulary is None:
