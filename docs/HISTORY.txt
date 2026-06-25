@@ -1,8 +1,18 @@
 Changelog
 =========
 
-3.1-dev0 - (unreleased)
+4.0-dev0 - (unreleased)
 ---------------------------
+* Feature: Add grouped geographic coverage helper methos
+  [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+  [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+  in taxonomy value normalization
+  [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+  mappings taxonomy parsing
+  [avoinea - refs #296992]
 
 3.0 - (2026-06-17)
 ---------------------------
