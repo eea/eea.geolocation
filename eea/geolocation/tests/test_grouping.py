@@ -1,5 +1,6 @@
 import unittest
 
+from collective.taxonomy import PATH_SEPARATOR
 from eea.geolocation.geodata import parse_geotags_vocabulary
 from eea.geolocation.grouping import grouped_geolocation
 from eea.geolocation.grouping import serialize_grouped_geolocation
@@ -13,11 +14,23 @@ class GroupedGeolocationTest(unittest.TestCase):
             def iterEntries(self):
                 return iter(
                     [
-                        ("eea32", "eea32"),
-                        ("eea32Cyprus", "eea32Cyprus"),
-                        ("eea32Cyprusgeo-146669", "geo-146669"),
-                        ("eea32Portugal", "eea32Portugal"),
-                        ("eea32Portugalgeo-2264397", "geo-2264397"),
+                        (f"{PATH_SEPARATOR}eea32", "eea32"),
+                        (
+                            f"{PATH_SEPARATOR}eea32{PATH_SEPARATOR}Cyprus",
+                            "eea32Cyprus",
+                        ),
+                        (
+                            f"{PATH_SEPARATOR}eea32{PATH_SEPARATOR}Cyprus{PATH_SEPARATOR}geo-146669",
+                            "geo-146669",
+                        ),
+                        (
+                            f"{PATH_SEPARATOR}eea32{PATH_SEPARATOR}Portugal",
+                            "eea32Portugal",
+                        ),
+                        (
+                            f"{PATH_SEPARATOR}eea32{PATH_SEPARATOR}Portugal{PATH_SEPARATOR}geo-2264397",
+                            "geo-2264397",
+                        ),
                     ]
                 )
 

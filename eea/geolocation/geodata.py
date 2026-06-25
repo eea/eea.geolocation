@@ -1,6 +1,7 @@
 """Utilities for taxonomy-backed geolocation data."""
 
 from collective.taxonomy.interfaces import ITaxonomy
+from collective.taxonomy import PATH_SEPARATOR
 from plone.i18n.normalizer.interfaces import IIDNormalizer
 from plone.memoize.ram import cache
 from zope.component import getUtility
@@ -44,6 +45,7 @@ def parse_geotags_vocabulary(vocabulary):
     country = ""
 
     for value, _key in vocabulary.iterEntries():
+        value = value.replace(PATH_SEPARATOR, "")
         if identifier not in value:
             identifier = value
             data = {"title": identifier}
@@ -66,6 +68,7 @@ def parse_biotags_vocabulary(vocabulary):
     data = {}
 
     for value, _key in vocabulary.iterEntries():
+        value = value.replace(PATH_SEPARATOR, "")
         if identifier not in value:
             identifier = value
             data = {"title": identifier}
@@ -90,6 +93,7 @@ def parse_country_mappings_vocabulary(vocabulary):
     identifier = "placeholderidentifier"
 
     for value, _key in vocabulary.iterEntries():
+        value = value.replace(PATH_SEPARATOR, "")
         if identifier not in value:
             identifier = value
         else:
