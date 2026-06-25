@@ -122,9 +122,7 @@ def get_biotags(context=None):
 @cache(lambda method, *args, **kwargs: "country_mappings")
 def get_country_mappings(context=None):
     """Return country label mappings from taxonomy."""
-    vocabulary = get_taxonomy_vocabulary(
-        COUNTRIES_MAPPING_TAXONOMY, context=context
-    )
+    vocabulary = get_taxonomy_vocabulary(COUNTRIES_MAPPING_TAXONOMY, context=context)
     if vocabulary is None:
         return {}
 
